@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5;
+    color: #71394d;
+}
+
+.welcome {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #ffd6e5,
+        #fff0f5,
+        #ffc1d6
+    );
+}
+
+.welcome-content {
+    max-width: 700px;
+}
+
+.welcome p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    color: #cf4f7a;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px 30px;
+
+    border: none;
+    border-radius: 50px;
+
+    background: #d95680;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #bd3d67;
+}
+
+.letter-section {
+    padding: 80px 20px;
+    background: #fff7fa;
+
+    display: flex;
+    justify-content: center;
+}
+
+.letter-card {
+    width: 100%;
+    max-width: 750px;
+
+    background: white;
+
+    padding: 50px;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.letter-card h2 {
+    text-align: center;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+
+    color: #cf4f7a;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #9b6375;
+}
+
+.photo-container {
+    max-width: 450px;
+    margin: auto;
+
+    padding: 10px;
+    background: #ffe0ea;
+
+    border-radius: 20px;
+
+    margin-bottom: 40px;
+}
+
+.photo-container img {
+    width: 100%;
+    display: block;
+
+    border-radius: 15px;
+}
+
+.letter {
+    font-family: 'Courier New', cursive;
+    font-size: 25px;
+    line-height: 1.7;
+}
+
+.letter p {
+    margin-bottom: 25px;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .letter-card {
+        padding: 25px;
+    }
+
+    .letter {
+        font-size: 21px;
+    }
+
+}
